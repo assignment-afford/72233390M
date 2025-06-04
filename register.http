@@ -1,0 +1,26 @@
+POST http://20.244.56.144/evaluation-service/register
+Content-Type: application/json
+
+{
+  "email": "udavantpiyush8@gmail.com",
+  "name": "Piyush Satish Udavant",
+  "mobileNo": "8669048897",
+  "githubUsername": "assignment-afford",
+  "rollNo": "TCOD47",
+  "collegeName": "Dr. D Y Patil Institute of Technology , Pimpri ",
+  "accessCode": "KRjUUU"
+}
+
+### Get Authorization Token
+POST http://20.244.56.144/evaluation-service/auth
+Content-Type: application/json
+
+{
+  "email": "udavantpiyush8@gmail.com",
+  "name": "piyush satish udavant",
+  "rollNo": "tcod47",
+  "accessCode": "KRjUUU",
+  "clientID": "c5a2544e-1f45-4640-a108-f81d9476a4c3",
+  "clientSecret": "ZUqwABVteeZcjGAs"
+}
+
